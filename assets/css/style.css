@@ -7,6 +7,7 @@
 body {
     background-color: #BAF8FF;
 }
+
 header {
     padding: 30px;
     background-color: #4F949C;
@@ -36,5 +37,42 @@ header nav ul li a:hover {
 
 .hero {
     background-image: url("../images/me.jpg");
+    background-size: cover;
     background-position: center;
+    height: 300px;
+    width: 300px;
+    position: relative;
 }
+
+/* about me section */
+.info {
+    font-size: 15px;
+    border: 5px solid #000000;
+    padding: 50px;
+}
+
+.info p {
+    float: right;
+}
+
+.info h2 {
+    font-family: Georgia;
+}
+
+.info img {
+    height:20px;
+    width: 20px;
+    float: right;
+}
+
+/* my work section */
+.work-ex {
+    padding: 20px;
+}
+.work-ex img {
+    width: 25%;
+}
+
+/* contact me section */
+
+/* all media queries here */
