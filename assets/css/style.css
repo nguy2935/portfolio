@@ -11,15 +11,27 @@ body {
 header {
     padding: 30px;
     background-color: #4F949C;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: Brush Script MT;
+    font-weight: bold;
 }
 
 header nav {
-    float: right;
+    margin: 5px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li {
@@ -39,9 +51,16 @@ header nav ul li a:hover {
     background-image: url("../images/me.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
     height: 300px;
     width: 300px;
     position: relative;
+}
+
+.sectiontitle {
+    font-size: 35px;
+    font-family: Georgia;
 }
 
 /* about me section */
@@ -53,26 +72,35 @@ header nav ul li a:hover {
 
 .info p {
     float: right;
-}
-
-.info h2 {
-    font-family: Georgia;
+    background-color: #ffffff;
 }
 
 .info img {
-    height:20px;
-    width: 20px;
-    float: right;
+    height:200px;
+    width: 175px;
 }
 
 /* my work section */
 .work-ex {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3EACCD;
+    margin: 0 auto 0 auto;
 }
+
 .work-ex img {
-    width: 25%;
+    width: 15%;
+}
+
+.work-ex img:hover{
+    opacity: 0.5;
 }
 
 /* contact me section */
+
+.flex {
+    display: flex;
+}
 
 /* all media queries here */
