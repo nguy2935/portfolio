@@ -70,6 +70,7 @@ header nav ul li a:hover {
 .sectiontitle {
     font-size: 35px;
     font-family: Georgia;
+    text-align: center;
 }
 
 /* about me section */
@@ -82,11 +83,18 @@ header nav ul li a:hover {
 .info p {
     float: right;
     background-color: #ffffff;
+    display: inline-block;
 }
 
 .info img {
     height:200px;
     width: 175px;
+    display: inline-block;
+}
+
+.wrap {
+    padding:25px;
+    margin:25px;
 }
 
 /* my work section */
