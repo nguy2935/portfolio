@@ -6,6 +6,8 @@
 
 body {
     background-color: #BAF8FF;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
 
 header {
@@ -48,36 +50,51 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("../images/me.jpg");
-    background-size: cover;
-    background-position: center;
+    padding:100px;
+    margin:100px;
     display: flex;
     justify-content: center;
-    height: 300px;
-    width: 300px;
     position: relative;
+    text-align: right;
+}
+
+.content {
+    padding:100px;
+    margin:100px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sectiontitle {
     font-size: 35px;
     font-family: Georgia;
+    text-align: center;
 }
 
 /* about me section */
 .info {
     font-size: 15px;
-    border: 5px solid #000000;
     padding: 50px;
+    background-color: cadetblue;
 }
 
 .info p {
     float: right;
     background-color: #ffffff;
+    display: inline-block;
 }
 
 .info img {
     height:200px;
     width: 175px;
+    display: inline-block;
+}
+
+.wrap {
+    padding:25px;
+    margin:25px;
 }
 
 /* my work section */
