@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 15px;
     background-color: #CAE9FF;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ header nav {
     margin: 12px;
     align-items: center;
     list-style: none;
-    background-color: #9AC7E8;
+  /**  background-color: #9AC7E8; **/
     display: inline-block;
 }
 
@@ -80,66 +80,58 @@ header nav ul li a:hover {
 
 .sectiontitle {
     font-size: 35px;
-    font-family: Georgia;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    padding: 25px;
 }
 
 /* about me section */
-.info {
-    font-size: 15px;
-    padding: 50px;
+
+.about-content {
     background-color: #9AC7E8;
+    margin-bottom: 5px;
+}
+
+.about-content p { 
+    background-color: white;
+    padding: 15px;
+    width: 25%;
+}
+
+.about-content img {
+    height:250px;
+    width: 215px;
+
+}
+
+.about-box {
+    padding: 15px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-    margin: 25px;
-}
-
-.info p {
-    float: right;
-    background-color: #ffffff;
-    display: inline-block;
-}
-
-.info img {
-    height:200px;
-    width: 175px;
-    display: inline-block;
-}
-
-.about-info-wrap {
-    padding:25px;
-    margin:25px;
 }
 
 /* my work section */
 .work-ex {
-    padding: 15px;
-    margin: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #9AC7E8;
 }
 
 .work-ex img {
-    width: 100%;
+    width: 75%;
+    padding: 15px;
 }
 
 .work-ex img:hover{
     opacity: 0.5;
-    width:400px;
+    width:100%;
 }
 
 /* contact me section */
 .contact-info {
     background-color: #9AC7E8;
 }
-.flex-row {
+.display-work {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer {
@@ -149,3 +141,6 @@ footer {
 }
 
 /* all media queries here */
+@media screen and (max-width: 575px;){
+    
+}
