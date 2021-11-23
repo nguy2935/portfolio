@@ -21,6 +21,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 9999;
 }
 
 header h1 {
@@ -35,6 +36,7 @@ header nav {
     align-items: center;
     list-style: none;
     background-color: #9AC7E8;
+    display: inline-block;
 }
 
 header nav ul {
@@ -50,12 +52,11 @@ header nav ul li a {
     margin: 30px;
     color: #ffffff;
     padding: 25px;
+    font-size: 25px;
 }
 
 header nav ul li a:hover {
     color: #000000;
-    padding: 12px;
-    margin: 12px;
     background-color: cornflowerblue;
 }
 
@@ -93,6 +94,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    margin: 25px;
 }
 
 .info p {
@@ -142,6 +144,8 @@ header nav ul li a:hover {
 
 footer {
     text-align: center;
+    background-color: #83A9C4;
+    padding: 25px;
 }
 
 /* all media queries here */
