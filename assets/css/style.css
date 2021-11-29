@@ -111,27 +111,33 @@ header nav ul li a:hover {
 }
 
 /* my work section */
+.work-ex div {
+    background:#91D1FF;
+    padding: 5px;
+}
 .work-ex {
 }
 
 .work-ex img {
-    width: 75%;
+    width: 100%;
     padding: 15px;
+    border: solid 5px violet;
 }
 
 .work-ex img:hover{
     opacity: 0.5;
-    width:100%;
+    width:75%;
+}
+
+.display-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* contact me section */
 .contact-info {
     background-color: #9AC7E8;
-}
-.display-work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 footer {
