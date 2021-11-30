@@ -14,6 +14,7 @@ body {
 
 a {
     color: #7798AF;
+    text-decoration: none;
 }
 
 a:hover{ 
@@ -116,6 +117,7 @@ header nav ul li a:hover {
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* my work section */
@@ -124,6 +126,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 1px;
 }
 
 .display-work img {
@@ -135,10 +138,22 @@ header nav ul li a:hover {
     padding: 10px;
 }
 
-.display-work h3, span {
-    background: white;
-    padding: 7px;
+.display-work h3 {
+    background: #D4EDFF;
+    padding: 10px;
     position: absolute;
+    margin-top: -5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.display-work span {
+    
+}
+
+.display-work h3:hover {
+    color: #7798AF;
+    background: #3379AB;
+    
 }
 
 .work-ex {
