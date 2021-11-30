@@ -12,6 +12,14 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    color: #7798AF;
+}
+
+a:hover{ 
+    color: #2F94DB;
+}
+
 header {
     padding: 15px;
     background-color: #CAE9FF;
@@ -111,28 +119,34 @@ header nav ul li a:hover {
 }
 
 /* my work section */
-.work-ex div {
-    background:#91D1FF;
-    padding: 5px;
-}
-.work-ex {
+.display-work {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.work-ex img {
+.display-work img {
     width: 100%;
-    padding: 15px;
-    border: solid 5px violet;
+}
+
+.work-ex div {
+    background: #D4EDFF;
+    padding: 10px;
+}
+
+.display-work h3, span {
+    background: white;
+    padding: 7px;
+    position: absolute;
+}
+
+.work-ex {
 }
 
 .work-ex img:hover{
     opacity: 0.5;
-    width:75%;
-}
-
-.display-work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width:100%;
 }
 
 /* contact me section */
